@@ -1,0 +1,23 @@
+{
+  "name": "co_gai_mua_ha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidvn/co_gai_mua_ha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tidvn/co_gai_mua_ha/issues"
+  },
+  "homepage": "https://github.com/tidvn/co_gai_mua_ha#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}

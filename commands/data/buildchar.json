@@ -1,0 +1,328 @@
+{
+    "Ganyu": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Ganyu",
+		"Thumbnail": "https://mobile.gamelandvn.com/wp-content/uploads/2021/01/ganyu-thumbnail.jpg",
+		"Image": "https://i.imgur.com/ro2mybX.jpg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Sara": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Sara",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479742139150366/240996636_421813606011195_8959096603489697272_n.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Baal": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Baal",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479728792870912/240924145_421813499344539_6592306977275911047_n.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Sayu": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Sayu",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479708853166080/228253419_407288440797045_1096211727437182519_n.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Yoimiya": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Yoimiya",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479694592512060/234227166_407288144130408_1341807075491413900_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Ayaka": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Ayaka",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479673302233088/217772582_394952152030674_4154756616072357244_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Jean": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Jean",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/bxdnHCz.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Sucrose": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Sucrose",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/G94KnyJ.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Venti": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Venti",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/Av8lHPQ.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Xiao": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Xiao",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/Av8lHPQ.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Chongyun": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Chongyun",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/ot25Iop.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Diona": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Diona",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/uYsf6Xk.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Kaeya": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Keaya",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/UW9HbHA.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Qiqi": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Qiqi",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/cpmXoJt.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Beidou": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Beidou",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/YaulQci.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+		
+	"Fischl": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Fischl",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/DCwYuZt.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+		
+	"keqing": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi keqing",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/xRx6w9n.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+		
+	"Albedo": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Albedo ",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/nNgTxrU.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+		
+	"Ningguang": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Ningguang ",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/mpECrbH.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+		
+	"Noelle": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Noelle",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/Vw9guNd.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+		
+	"Zhongli": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Zhongli ",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479387611414538/212524123_384855669706989_1261609237018264709_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+		
+	"Babara": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Babara",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/fSY6D3g.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Tartaglia": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Tartaglia",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/qEVNnon.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Xingqiu": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Xingqiu",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/Qjmwv48.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"bennet": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Bennet",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/PaVsXpr.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Diluc": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Diluc",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/SmM9rrG.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Klee": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Klee",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/jsVr1dd.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Xiangling": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Xiangling",
+		"Thumbnail": "",
+		"Image": "https://i.imgur.com/MqPGFLs.jpeg",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"kazuha": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Kazuha",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479033939312650/212736707_384854783040411_6411264396823974877_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Razor": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Razor",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479202785210378/211887777_384858056373417_901374439663766157_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Rosaria": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Rosaria",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479223651881010/211850282_384858516373371_1624402283608305374_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Mona": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Mona",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479131066806312/213178625_384855379707018_4627714639327812392_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Lisa": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Lisa",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479106970517564/213377126_384856293040260_4349131466667880171_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Eula": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Eula",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885478903873945651/214011287_384852913040598_406665289066534935_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Yanfei": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Yanfei",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479365675212870/213492037_384853086373914_6184625545760904865_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Amber": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Amber",
+		"Thumbnail": "",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885479436407959552/213539244_384852473040642_8445431191470845161_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Aloy": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Aloy",
+		"Thumbnail": "",
+		"Image": "",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"Kokomi": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách chơi Kokomi",
+		"Thumbnail": "",
+		"Image": "",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+
+    "Hutao": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Hutao",
+		"Thumbnail": "https://mobile.gamelandvn.com/wp-content/uploads/2021/01/ganyu-thumbnail.jpg",
+		"Image": "https://media.discordapp.net/attachments/879358622822457374/885478976351535124/212711257_384853196373903_117165371332936868_n.png?width=683&height=683",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		}
+}
