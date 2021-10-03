@@ -1,8 +1,8 @@
 const fs = require('fs');
 const { Client, Collection, Intents,MessageEmbed} = require('discord.js');
 
-const { token } = require('./config.json');
-
+//const { token } = require('./config.json');
+require('dotenv').config();
 const client = new Client({intents: [
 	Intents.FLAGS.GUILDS,
 	Intents.FLAGS.GUILD_MEMBERS,
@@ -60,4 +60,4 @@ for (const file of eventFiles) {
 
 
 
-client.login(token);
+client.login(process.env.TOKEN);

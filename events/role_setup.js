@@ -115,13 +115,16 @@ const Game = new MessageActionRow()
 
 module.exports = {
 	name: 'message',
-	once: true,
+	once: false,
 	execute(msg) {
-		if (msg.content === 'gt') {
-            msg.channel.send({ content: '\n\*\*\*Giới Tính của bạn là :\*\*\*', components: [Gioitinh] });
-            msg.channel.send({ content: '\n\*\*\*Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
-            msg.channel.send({ content: '\n\*\*\*Bạn chơi Genshin trên hệ máy gì :\*\*\*', components: [Device] });
-            msg.channel.send({ content: '\n\*\*\*Bạn chơi những game gì ?  :\*\*\*', components: [Game] });
+		if (msg.content === 'gt1') {
+            msg.channel.send({ content: '\n\*\*\*<a:PinkStar2:894052602860408853>Giới Tính của bạn là :\*\*\*', components: [Gioitinh] });
+		}if (msg.content === 'gt2') {
+            msg.channel.send({ content: '\n\*\*\*<a:sparkle5:894052603707654184> Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
+		}if (msg.content === 'gt3') {
+            msg.channel.send({ content: '\n\*\*\*<a:sparkle7:894052603141443685> Bạn chơi Genshin trên hệ máy gì :\*\*\*', components: [Device] });
+		}if (msg.content === 'gt4') {
+            msg.channel.send({ content: '\n\*\*\*<:Kwc_horn:894052603179196476>Bạn chơi những game gì ?  :\*\*\*', components: [Game] });
             
         }
 	},
