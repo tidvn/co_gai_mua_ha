@@ -27,9 +27,9 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('build')
 		.setDescription('Hướng dẫn cách build.')
-		.addStringOption(option => option.setName('input').setDescription('nhập tên nhân vật:')),
+		.addStringOption(option => option.setName('character').setDescription('nhập tên nhân vật:')),
 	async execute(interaction) {
-		const value = interaction.options.getString('input');
+		const value = interaction.options.getString('character');
 		
 			
 			
