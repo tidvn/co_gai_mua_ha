@@ -78,6 +78,7 @@ module.exports =  {
     
     channel.send(`Hello <@${member.id }> ! `);
     channel.send({ embeds: [welcome_eEmbed],files: [attachment] });
+member.roles.add('882970392728322048');
 
 
     }
