@@ -9,7 +9,7 @@ module.exports =  {
     once: false,
     execute: async (member)=> {
         
-        const channel = member.guild.channels.cache.get('893546436933865475');
+        const channel = member.guild.channels.cache.get('879273823390826506');
 
 
 
@@ -72,7 +72,7 @@ module.exports =  {
         .setThumbnail('https://media2.giphy.com/media/HTVeYVXjLiunFlUOeu/giphy.gif?cid=ecf05e47q73m9htvgy80z6cwnpe5d3czv780mf5w3xns1nia&rid=giphy.gif&ct=g')
         .setImage("attachment://welcome-image.png");
 
-       
+   
 
 		
     
