@@ -1,4 +1,4 @@
-``
+
 const { MessageAttachment,MessageEmbed } = require('discord.js')
 const Canvas = require('canvas')
 
