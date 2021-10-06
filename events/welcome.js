@@ -53,7 +53,7 @@ module.exports =  {
         context.closePath();
         context.clip();
         //define the user avatar
-        const avatar = await Canvas.loadImage(member.user.displayAvatarURL({ format: 'jpg' }));
+        const avatar = await Canvas.loadImage(member.user.displayAvatarURL({size: 4096, dynamic: true, format: 'jpg' }));
         //draw the avatar
         context.drawImage(avatar, canvas.width / 2 - 225 , canvas.height / 2 - 400, 450, 450);
         
