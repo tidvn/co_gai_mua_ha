@@ -1,7 +1,7 @@
 {
   "name": "co-gai-mua-ha",
   "version": "1.0.0",
-  "description": "",
+  "description": "1 con bot của tui",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
@@ -11,13 +11,23 @@
     "node": "16.9.0"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tidvn",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/builders": "^0.6.0",
     "@discordjs/rest": "^0.1.0-canary.0",
     "canvas": "^2.8.0",
     "discord-api-types": "^0.23.1",
-    "discord.js": "^13.1.0",
+    "discord.js": "^13.2.0",
     "dotenv": "^10.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidvn/co_gai_mua_ha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tidvn/co_gai_mua_ha/issues"
+  },
+  "homepage": "https://github.com/tidvn/co_gai_mua_ha#readme"
 }
