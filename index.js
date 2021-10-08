@@ -1,3 +1,4 @@
+require("http").createServer((req, res) => res.end(process.version)).listen()
 const fs = require('fs');
 const { Client, Collection, Intents,MessageEmbed} = require('discord.js');
 
