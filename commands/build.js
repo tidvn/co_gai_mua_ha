@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const {MessageEmbed} = require('discord.js');
-const data = require('./data/buildchar.json');
+const data = require('../assets/buildchar.json');
 const data1 = ` \/build Ganyu \n \/build Sara \n \/build Baal \n \/build Sayu \n \/build Yoimiya \n \/build Ayaka \n \/build Jean \n \/build Jean \n \/build Venti \n \/build Xiao \n \/build Chongyun \n \/build Diona \n \/build Keaya \n \/build Qiqi \n \/build Beidou \n \/build Rosaria \n \/build Mona \n \/build Eula \n \/build Yanfei\n `
 const data2 =` \/build Fischl\n \/build keqing\n \/build Albedo\n \/build Ningguang\n \/build Noelle\n \/build Zhongli\n \/build Babara\n \/build Tartaglia\n \/build Xingqiu\n \/build Bennett\n \/build Diluc\n \/build Klee\n \/build Xiangling\n \/build Kazuha\n \/build Razor\n \/build Amber\n \/build Aloy\n \/build Kokomi\n \/build Hutao\n `
 function embedsfc(mess) {
