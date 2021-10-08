@@ -1,9 +1,4 @@
-var http = require("http");
 
-http.createServer(function(req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain-text'});
-  res.end("Hello, I'm a Node js Server")
-}).listen(3000);
 const fs = require('fs');
 const { Client, Collection, Intents,MessageEmbed} = require('discord.js');
 
