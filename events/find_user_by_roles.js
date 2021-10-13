@@ -9,7 +9,7 @@ module.exports = {
         
             if (message.content.startsWith("!roles")) {
                 let roleName = message.content.split(" ").slice(1).join(" ");
-                members = message.guild.roles.cache.find(role => role.name === `${roleName}`).members.map(m=>m.user.tag);
+                members = message.guild.roles.cache.find(role => role.id === `${roleName}`).members.map(m=>m.user.tag);
             console.log(members)
 
                // const filteredRoles = member.roles.cache.filter(role => role.id != message.guild.id);
