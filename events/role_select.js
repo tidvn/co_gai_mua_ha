@@ -5,28 +5,17 @@ module.exports = {
 	once: false,
 	execute(interaction) {
 		if (!interaction.isSelectMenu()) return;
+		member.roles.remove('882970392728322048');
 		const member = interaction.guild.members.cache.find((member) => member.id === interaction.user.id)
 		function crole(rls){
 			return interaction.guild.roles.cache.find(role => role.name === rls);
 		}
 		
-		//console.log(member)
-		//const Nam =interaction.guild.roles.cache.find(role => role.name === "Nam");
-		//const Nu =interaction.guild.roles.cache.find(role => role.name === "Nu");
-		//console.log(Nam);
-		//const { guild } = interaction
-		
-		//console.log(interaction.values[0]);      
-		//console.log(interaction.guild.roles.cache.find(role => role.name === `Nữ`)); 
-		//const { guild } = interaction
-		
-	    //const member = interaction.user.id.find((member) => member.id === user.id)
-		; 
-		//member.roles.add(interaction.guild.roles.cache.find(role => role.name === `${interaction.values}`));  
         if(interaction.customId=='Sex') {
 		member.roles.remove(crole(`Nam`)); 
 		member.roles.remove(crole(`Nữ`)); 
 		member.roles.remove(crole(`giới tính thứ 3`)); 
+		
 			switch (interaction.values[0]){
 			case 'Nam' :
 				member.roles.add(crole(`Nam`));
