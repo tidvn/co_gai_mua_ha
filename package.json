@@ -1,5 +1,5 @@
 {
-  "name": "v13musicbot",
+  "name": "cogaimuaha",
   "version": "1.0.0",
   "description": "A Discord Music Bot built with latest Discord Voice Features",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/Tomato6966/v13-music-bot"
+    "url": ""
   },
   "keywords": [
     "Music",
@@ -19,7 +19,7 @@
     "js",
     "nodejs"
   ],
-  "author": "Tomato6966",
+  "author": "tidvn",
   "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
