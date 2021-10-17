@@ -3,7 +3,7 @@ module.exports= (interaction)=>{
     if (!interaction.isSelectMenu()) return;
 		
 		const member = interaction.guild.members.cache.find((member) => member.id === interaction.user.id);
-		//member.roles.remove('882970392728322048');
+		member.roles.remove('882970392728322048');
 		function crole(rls){
 			return interaction.guild.roles.cache.find(role => role.name === rls);
 		}
