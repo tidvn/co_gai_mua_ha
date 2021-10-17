@@ -6,7 +6,7 @@ const ee = require("../../botconfig/embed.json"); //Loading all embed settings l
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 //here the event starts
 module.exports = async (client, member) => { 
-    const channel = member.guild.channels.cache.get('893546436933865475');
+    const channel = member.guild.channels.cache.get('879273823390826506');
     const canvas = Canvas.createCanvas(1772, 900);
     const context = canvas.getContext('2d');   
     //set the Background to the welcome.png
@@ -72,7 +72,7 @@ module.exports = async (client, member) => {
 
 channel.send(`Hello <@${member.id }> ! `);
 channel.send({ embeds: [welcome_eEmbed],files: [attachment] });
-//member.roles.add('882970392728322048');
+member.roles.add('882970392728322048');
 
 
 
