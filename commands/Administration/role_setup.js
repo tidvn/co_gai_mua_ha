@@ -145,10 +145,20 @@ module.exports = {
     argsmissing_message: "You are missing the text you wanna add to the message!", //Message if the user has not enough args / not enough plus args, which will be sent, leave emtpy / dont add, if you wanna use command.usage or the default message! [OPTIONAL]
     argstoomany_message: "You are having too many arguments for this Command!", //Message if the user has too many / not enough args / too many plus args, which will be sent, leave emtpy / dont add, if you wanna use command.usage or the default message! [OPTIONAL]
     run: async (client, message, args, plusArgs, cmdUser, text, prefix) => {
+		try{
         message.channel.send({ content: '\n\*\*\*<a:PinkStar2:894052602860408853>Giới Tính của bạn là :\*\*\*', components: [Gioitinh] });
         message.channel.send({ content: '\n\*\*\*<a:sparkle5:894052603707654184> Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
         message.channel.send({ content: '\n\*\*\*<a:sparkle7:894052603141443685> Bạn chơi Genshin trên hệ máy gì :\*\*\*', components: [Device] });
         message.channel.send({ content: '\n\*\*\*<:Kwc_horn:894052603179196476>Bạn chơi những game gì ?  :\*\*\*', components: [Game] });
+		}catch (e){
+				console.log(String(e.stack).bgRed)
+				return message.reply({embeds: [new MessageEmbed()
+					.setColor(ee.wrongcolor)
+					.setFooter(ee.footertext, ee.footericon)
+					.setTitle(`❌ ERROR | An error occurred`)
+					.setDescription(`\`\`\`${e.message ? String(e.message).substr(0, 2000) : String(e).substr(0, 2000)}\`\`\``)
+				]});
+			}
   }
 }
 
