@@ -73,6 +73,7 @@ module.exports = async (client, member) => {
 channel.send(`Hello <@${member.id }> ! `);
 channel.send({ embeds: [welcome_eEmbed],files: [attachment] });
 member.roles.add('882970392728322048');
+    member.guild.channels.cache.get('879271959853154344').send({ content: `<@${member.id }> . bạn vui lòng chọn role ở đây nhé  `, ephemeral: true });
 
 
 
