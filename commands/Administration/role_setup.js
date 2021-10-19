@@ -166,7 +166,7 @@ module.exports = {
         message.channel.send({ content: '\n\*\*\*<a:sparkle5:894052603707654184> Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
         message.channel.send({ content: '\n\*\*\*<a:sparkle7:894052603141443685> Bạn chơi Genshin trên hệ máy gì :\*\*\*', components: [Device] });
         message.channel.send({ content: '\n\*\*\*<:Kwc_horn:894052603179196476>Bạn chơi những game gì ?  :\*\*\*', components: [Game] });
-		message.channel.send({ content: '\n\*\*\*<:lumine_derp:882814154858180709> Bạn muốn bot nhắc điểm danh mỗi ngày không ? :\*\*\*', components: [diemdanh] });
+		message.channel.send({ content: '\n\*\*\*<:lumine_derp:882814154858180709> Bạn muốn bot nhắc điểm danh Hoyolab mỗi ngày không ? :\*\*\*', components: [diemdanh] });
 		}catch (e){
 				console.log(String(e.stack).bgRed)
 				return message.reply({embeds: [new MessageEmbed()
