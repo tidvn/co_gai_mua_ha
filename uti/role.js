@@ -1,12 +1,14 @@
 module.exports= (interaction)=>{
-
-    if (!interaction.isSelectMenu()) return;
+	
+	const member = interaction.guild.members.cache.find((member) => member.id === interaction.user.id);
+    function crole(rls){
+		return interaction.guild.roles.cache.find(role => role.name === rls);
+	}
+	if (interaction.isSelectMenu()) 
+	{		
 		
-		const member = interaction.guild.members.cache.find((member) => member.id === interaction.user.id);
-		member.roles.remove('882970392728322048');
-		function crole(rls){
-			return interaction.guild.roles.cache.find(role => role.name === rls);
-		}
+		//member.roles.remove('882970392728322048');
+		
 		
         if(interaction.customId=='Sex') {
 		member.roles.remove(crole(`Nam`)); 
@@ -66,4 +68,14 @@ module.exports= (interaction)=>{
 		
 		
 		interaction.deferUpdate();
+
+	}
+
+
+else if (interaction.isButton()) 
+{
+	if (interaction.customId=='diemdanh_on') member.roles.add(crole(`điểm danh`));
+	if (interaction.customId=='diemdanh_off') member.roles.remove(crole(`điểm danh`));
+	interaction.deferUpdate();
+}
 }
