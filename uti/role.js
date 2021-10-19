@@ -7,7 +7,7 @@ module.exports= (interaction)=>{
 	if (interaction.isSelectMenu()) 
 	{		
 		
-		//member.roles.remove('882970392728322048');
+		member.roles.remove('882970392728322048');
 		
 		
         if(interaction.customId=='Sex') {
