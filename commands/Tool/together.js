@@ -58,7 +58,7 @@ module.exports = {
                 if(message.member.voice.channel) {
                     client.discordTogether.createTogetherCode(message.member.voice.channel.id, interaction.customId).then(async invite => {
                            interaction.deleteReply();
-                         console.log(interaction.customId)
+                         console.log(interaction.customId);
                          return message.reply(`${invite.code}`);
                         
                          
