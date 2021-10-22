@@ -20,8 +20,9 @@ module.exports= async(message)=>{
 
 
       if (ibad) {
+        message.delete();
         message.channel.send(`tin nhắn có chứa từ bị cấm`);
-        message.delete(); // Deletes the message
+         // Deletes the message
         
         }
 
