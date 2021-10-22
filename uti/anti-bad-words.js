@@ -11,11 +11,14 @@ module.exports= async(message)=>{
     let foundInText = false;
     for (var i in badwords) {
         
-      if (message.content.toLowerCase().includes(badwords[i].toLowerCase())) foundInText = true;
+      if (message.content.toLowerCase().includes(badwords[i].toLowerCase())) {
+           badw = badwords[i].toLowerCase();
+          foundInText = true;
+      }
     }
     if (foundInText) {
        
         await  message.delete();// Deletes the message
-        await  message.channel.send(`tin nhắn chứa từ bị cấm`);
+        await  message.channel.send(`tin nhắn chứa từ bị cấm: || ${badw} ||`);
       }
     }
