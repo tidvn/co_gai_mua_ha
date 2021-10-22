@@ -1,9 +1,9 @@
-//const {badword} = require('../assets/badwords.json');
-var fs = require("fs");
-var text = fs.readFileSync('./assets/badwords.txt', {encoding:'utf8', flag:'r'});
-//console.log(text)
-var badwords = text.split('\r\n')
-//console.log(badwords)
+const {badword} = require('../assets/badwords.json');
+// var fs = require("fs");
+// var text = fs.readFileSync('./assets/badwords.txt', {encoding:'utf8', flag:'r'});
+// //console.log(text)
+// var badwords = text.split('\r\n')
+// //console.log(badwords)
 
 module.exports= async(message)=>{
 
