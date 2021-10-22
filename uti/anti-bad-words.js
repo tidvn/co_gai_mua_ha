@@ -8,6 +8,6 @@ module.exports= async (message)=>{
     if (foundInText) {
        
         await  message.delete();// Deletes the message
-        await  message.channel.send(`bad`);
+        await  message.channel.send(`tin nhắn chứa từ bị cấm`);
       }
     }
