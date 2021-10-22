@@ -19,6 +19,6 @@ module.exports= async(message)=>{
     if (foundInText) {
        
         await  message.delete();// Deletes the message
-        await  message.channel.send(`<@${message.member.id }> tin nhắn chứa từ bị cấm: || ${badw} ||`);
+        await  message.channel.send(`<@${message.member.id }> tin nhắn chứa từ bị cấm`);
       }
     }
