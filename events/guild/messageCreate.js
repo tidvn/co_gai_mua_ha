@@ -7,7 +7,7 @@ const Discord = require("discord.js");
 module.exports = async (client, message) => {
     if(!message.guild || !message.channel || message.author.bot) return;
     require(`../../uti/anti-ad`)(message);
-    require(`../../uti/anti-bad-words.js`)(message);
+    require(`../../uti/anti-bad-words`)(message);
     if(message.channel.partial) await message.channel.fetch();
     if(message.partial) await message.fetch();
     const prefix = process.env.PREFIX;
