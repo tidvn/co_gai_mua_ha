@@ -1,9 +1,12 @@
-const {badword} = require('../assets/badwords.json');
+var fs = require("fs");
+var text = fs.readFileSync('./assets/badwords.txt', {encoding:'utf8', flag:'r'});
+//console.log(text)
+var badwords = text.split('\r\n')
 module.exports= async (message)=>{
     
     let foundInText = false;
-    for (var i in badword) {
-      if (message.content.toLowerCase().includes(badword[i].toLowerCase())) foundInText = true;
+    for (var i in badwords) {
+      if (message.content.toLowerCase().includes(badwords[i].toLowerCase())) foundInText = true;
     }
     if (foundInText) {
        
