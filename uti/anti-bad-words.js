@@ -1,4 +1,4 @@
-const {badword} = require('../assets/badwords.json');
+const {badwords} = require('../assets/badwords.json');
 // var fs = require("fs");
 // var text = fs.readFileSync('./assets/badwords.txt', {encoding:'utf8', flag:'r'});
 // //console.log(text)
