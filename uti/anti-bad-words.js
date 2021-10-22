@@ -1,6 +1,6 @@
 var fs = require("fs");
 var text = fs.readFileSync('./assets/badwords.txt', {encoding:'utf8', flag:'r'});
-//console.log(text)
+console.log(text)
 var badwords = text.split('\r\n')
 module.exports= async (message)=>{
     
