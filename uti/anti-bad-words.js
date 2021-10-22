@@ -20,9 +20,9 @@ module.exports= async(message)=>{
 
 
       if (ibad) {
-    
+        message.reply(`tin nhắn có chứa từ bị cấm`);
         message.delete(); // Deletes the message
-        message.reply(`bad`);
+        
         }
 
     // let foundInText = false;
