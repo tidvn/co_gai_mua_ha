@@ -6,7 +6,7 @@ module.exports= async (message)=>{
       if (message.content.toLowerCase().includes(badword[i].toLowerCase())) foundInText = true;
     }
     if (foundInText) {
-       message.delete().then(message.channel.send(`tin nhắn có chứa từ bị cấm`));
+       message.delete().then(setTimeout(() => message.channel.send(`tin nhắn có chứa từ bị cấm`), 100));
        
       }
     }
