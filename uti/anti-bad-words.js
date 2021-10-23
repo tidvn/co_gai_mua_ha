@@ -19,6 +19,6 @@ module.exports= async(message)=>{
     if (foundInText) {
        
         await  message.delete();// Deletes the message
-        await  message.channel.send(`<@${message.member.id }> tin nhắn chứa từ bị cấm`);
+       await message.channel.send(`<@${message.member.id }> tin nhắn chứa từ bị cấm`).then(msg => {setTimeout(()=>{msg.delete()}, 4000)});
       }
     }
