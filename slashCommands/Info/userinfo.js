@@ -101,7 +101,7 @@ module.exports = {
 			embeduserinfo.setColor(ee.color)
 			embeduserinfo.setFooter(ee.footertext, ee.footericon)
 			//send the EMBED
-			interaction.reply({embeds: [embeduserinfo], ephemeral: true})
+			interaction.reply({embeds: [embeduserinfo]})
 		  }catch (e){
 			console.log(e)
 			const userFlags = UserOption.flags.toArray();
@@ -131,7 +131,7 @@ module.exports = {
 			embeduserinfo.setColor(ee.color)
 			embeduserinfo.setFooter(ee.footertext, ee.footericon)
 			//send the EMBED
-			interaction.reply({embeds: [embeduserinfo], ephemeral: true})
+			interaction.reply({embeds: [embeduserinfo]})
 		  }
     } catch (e) {
         console.log(String(e.stack).bgRed)
