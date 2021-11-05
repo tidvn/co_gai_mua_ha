@@ -17,6 +17,15 @@ const diemdanh = new MessageActionRow()
 				.setLabel('Tắt điểm danh')
 				.setStyle('DANGER')	
 			);
+		
+const verify = new MessageActionRow()
+            .addComponents(              
+              new MessageButton()
+              .setCustomId('confirm_rules')
+              .setLabel('vào server')
+              .setStyle('SUCCESS')	
+            	
+            );
 
 const Gioitinh = new MessageActionRow()
 .addComponents(
@@ -162,11 +171,16 @@ module.exports = {
     argstoomany_message: "You are having too many arguments for this Command!", //Message if the user has too many / not enough args / too many plus args, which will be sent, leave emtpy / dont add, if you wanna use command.usage or the default message! [OPTIONAL]
     run: async (client, message, args, plusArgs, cmdUser, text, prefix) => {
 		try{
-        message.channel.send({ content: '\n\*\*\*<a:PinkStar2:894052602860408853>Giới Tính của bạn là :\*\*\*', components: [Gioitinh] });
-        message.channel.send({ content: '\n\*\*\*<a:sparkle5:894052603707654184> Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
-        message.channel.send({ content: '\n\*\*\*<a:sparkle7:894052603141443685> Bạn chơi Genshin trên hệ máy gì :\*\*\*', components: [Device] });
-        message.channel.send({ content: '\n\*\*\*<:Kwc_horn:894052603179196476>Bạn chơi những game gì ?  :\*\*\*', components: [Game] });
-		message.channel.send({ content: '\n\*\*\*<:lumine_derp:882814154858180709> Bạn muốn bot nhắc điểm danh Hoyolab mỗi ngày không ? :\*\*\*', components: [diemdanh] });
+        if (text === "verify"){
+			message.channel.send({ content: '\n\*\*\*Tôi xác nhận đã đọc kỹ luật:\*\*\*', components: [verify] });
+		}else if (text === "role"){
+			message.channel.send({ content: '\n\*\*\*<a:PinkStar2:894052602860408853>Giới Tính của bạn là :\*\*\*', components: [Gioitinh] });
+			message.channel.send({ content: '\n\*\*\*<a:sparkle5:894052603707654184> Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
+			message.channel.send({ content: '\n\*\*\*<a:sparkle7:894052603141443685> Bạn chơi Genshin trên hệ máy gì :\*\*\*', components: [Device] });
+			message.channel.send({ content: '\n\*\*\*<:Kwc_horn:894052603179196476>Bạn chơi những game gì ?  :\*\*\*', components: [Game] });
+			message.channel.send({ content: '\n\*\*\*<:lumine_derp:882814154858180709> Bạn muốn bot nhắc điểm danh Hoyolab mỗi ngày không ? :\*\*\*', components: [diemdanh] });
+			
+		}
 		}catch (e){
 				console.log(String(e.stack).bgRed)
 				return message.reply({embeds: [new MessageEmbed()
