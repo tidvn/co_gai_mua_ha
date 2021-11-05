@@ -64,7 +64,7 @@ module.exports = async (client, member) => {
    // .setDescription("dfgsfgfdg")
 
 
-   .setDescription(`<:Kwc_horn:906151913416974398>Vui lòng đọc kỹ luật và xác minh tại \n   ${member.guild.channels.cache.get('881140043954159637').toString()} để tham gia tương tác \n   \n <:832727601155801098:906151913370832987>  Chúc bạn có những quãng thời gian vui vẻ cùng với server nhé <3`)
+   .setDescription(`<:Kwc_horn:906151913416974398>Vui lòng đọc kỹ luật và xác minh tại \n   ${member.guild.channels.cache.get('906141781329084436').toString()} để tham gia tương tác \n   \n <:832727601155801098:906151913370832987>  Chúc bạn có những quãng thời gian vui vẻ cùng với server nhé <3`)
 
 
 
