@@ -172,7 +172,7 @@ module.exports = {
     run: async (client, message, args, plusArgs, cmdUser, text, prefix) => {
 		try{
         if (text === "verify"){
-			message.channel.send({ content: '\n\*\*\*✅Tôi xác nhận đã đọc kỹ luật✅:\*\*\*', components: [verify] });
+			message.channel.send({ content: '\n\*\*\*✅Tôi xác nhận đã đọc kỹ luật:\*\*\*', components: [verify] });
 		}else if (text === "role"){
 			message.channel.send({ content: '\n\*\*\*<a:PinkStar2:894052602860408853>Giới Tính của bạn là :\*\*\*', components: [Gioitinh] });
 			message.channel.send({ content: '\n\*\*\*<a:sparkle5:894052603707654184> Bạn là Oldbie hay Newbie :\*\*\*', components: [ON] });
