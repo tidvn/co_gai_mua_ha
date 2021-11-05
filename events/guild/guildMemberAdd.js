@@ -5,7 +5,8 @@ const settings = require("../../botconfig/settings.json"); //loading settings fi
 const ee = require("../../botconfig/embed.json"); //Loading all embed settings like color footertext and icon ...
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 //here the event starts
-module.exports = async (client, member) => { 
+module.exports = async (client, member) => {
+    const mainchat = member.guild.channels.cache.get('879281077213073419')
     const channel = member.guild.channels.cache.get('879273823390826506');
     const canvas = Canvas.createCanvas(1772, 900);
     const context = canvas.getContext('2d');   
@@ -78,7 +79,8 @@ await member.roles.add('882970392728322048');
 await channel.send(`Hello <@${member.id }> ! `);
 await channel.send({ embeds: [welcome_eEmbed] });
 await channel.send({files: [attachment]});
-await member.guild.channels.cache.get('879281077213073419').send(`1 thiên thần nhỏ <@${member.id }> vừa đặt chân tới Genshin Vn . mọi người cùng chào đón cậu ấy nào !!! `);
+await mainchat.send(`1 thiên thần nhỏ <@${member.id }> vừa đặt chân tới Genshin Vn . mọi người cùng chào đón cậu ấy nào !!! `);
+await mainchat.send(`<:832727420733620284:906151913400184832> `);
 
 
 
