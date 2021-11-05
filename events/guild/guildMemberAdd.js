@@ -74,11 +74,10 @@ module.exports = async (client, member) => {
 
 
     
-
+await member.roles.add('882970392728322048');
 await channel.send(`Hello <@${member.id }> ! `);
 await channel.send({ embeds: [welcome_eEmbed] });
 await channel.send({files: [attachment]});
-await member.roles.add('882970392728322048');
 await member.guild.channels.cache.get('879281077213073419').send(`1 thiên thần nhỏ <@${member.id }> vừa đặt chân tới Genshin Vn . mọi người cùng chào đón cậu ấy nào !!! `);
 
 
