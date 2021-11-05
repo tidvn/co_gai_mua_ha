@@ -7,7 +7,7 @@ module.exports= (interaction)=>{
 	if (interaction.isSelectMenu()) 
 	{		
 		
-		member.roles.remove('882970392728322048');
+		//member.roles.remove('882970392728322048');
 		
 		
         if(interaction.customId=='Sex') {
@@ -76,6 +76,7 @@ else if (interaction.isButton())
 {
 	if (interaction.customId=='diemdanh_on') member.roles.add(crole(`điểm danh`));
 	if (interaction.customId=='diemdanh_off') member.roles.remove(crole(`điểm danh`));
+	if (interaction.customId=='confirm_rules') member.roles.remove(crole(`Not verified`));
 	interaction.deferUpdate();
 }
 }
