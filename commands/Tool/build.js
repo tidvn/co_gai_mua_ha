@@ -38,7 +38,7 @@ const data2 =` ${prefix}build fischl\n ${prefix}build keqing\n ${prefix}build al
         const help = {
             color: 'RANDOM',
             title: 'Đã xảy ra lỗi :( ',	
-            description: `sử dụng lệnh \"\ ${prefix}build \+ tên nhân vật\"\n lưu ý : tên nhân vật phải viết thường.\n 1 số nhân vật có tên 2 chữ như kamisato ayaka , kaedehara kazuha thì chỉ sử dụng tên (ayaka, kazuha) .\n 1 số nhân vật đặc biệt: tartaglia=childe , raiden shogun = baal `,
+            description: `sử dụng lệnh \"\ ${prefix}build \+ tên nhân vật\"\n lưu ý : tên nhân vật phải viết thường.\n 1 số nhân vật có tên 2 chữ như kamisato ayaka , kaedehara kazuha thì chỉ sử dụng tên (ayaka, kazuha) .\n 1 số nhân vật đặc biệt: tartaglia=childe , raiden shogun = baal,main-geo,main-anemo,main-electro`,
             fields: [
                             {
                                 name: `${prefix}build `,
