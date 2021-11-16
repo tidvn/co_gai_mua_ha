@@ -32,13 +32,13 @@ module.exports = {
   argsmissing_message: "", //Message if the user has not enough args / not enough plus args, which will be sent, leave emtpy / dont add, if you wanna use command.usage or the default message! [OPTIONAL]
   argstoomany_message: "", //Message if the user has too many / not enough args / too many plus args, which will be sent, leave emtpy / dont add, if you wanna use command.usage or the default message! [OPTIONAL]
     run: async (client, message, args, plusArgs, cmdUser, text, prefix) => {
-const data1 = ` ${prefix}build Ganyu \n ${prefix}build Sara \n ${prefix}build Baal \n ${prefix}build Sayu \n ${prefix}build Yoimiya \n ${prefix}build Ayaka \n ${prefix}build Jean \n ${prefix}build Jean \n ${prefix}build Venti \n ${prefix}build Xiao \n ${prefix}build Chongyun \n ${prefix}build Diona \n ${prefix}build Keaya \n ${prefix}build Qiqi \n ${prefix}build Beidou \n ${prefix}build Rosaria \n ${prefix}build Mona \n ${prefix}build Eula \n ${prefix}build Yanfei\n `
-const data2 =` ${prefix}build Fischl\n ${prefix}build keqing\n ${prefix}build Albedo\n ${prefix}build Ningguang\n ${prefix}build Noelle\n ${prefix}build Zhongli\n ${prefix}build Babara\n ${prefix}build Childe\n ${prefix}build Xingqiu\n ${prefix}build Bennett\n ${prefix}build Diluc\n ${prefix}build Klee\n ${prefix}build Xiangling\n ${prefix}build Kazuha\n ${prefix}build Razor\n ${prefix}build Amber\n ${prefix}build Aloy\n ${prefix}build Kokomi\n ${prefix}build Hutao\n `
+const data1 = ` ${prefix}build ganyu \n ${prefix}build sara \n ${prefix}build baal \n ${prefix}build sayu \n ${prefix}build yoimiya \n ${prefix}build ayaka \n ${prefix}build jean \n ${prefix}build jean \n ${prefix}build venti \n ${prefix}build xiao \n ${prefix}build chongyun \n ${prefix}build diona \n ${prefix}build keaya \n ${prefix}build qiqi \n ${prefix}build beidou \n ${prefix}build rosaria \n ${prefix}build mona \n ${prefix}build eula \n ${prefix}build yanfei\n `
+const data2 =` ${prefix}build fischl\n ${prefix}build keqing\n ${prefix}build albedo\n ${prefix}build ningguang\n ${prefix}build noelle\n ${prefix}build zhongli\n ${prefix}build babara\n ${prefix}build childe\n ${prefix}build xingqiu\n ${prefix}build bennett\n ${prefix}build diluc\n ${prefix}build klee\n ${prefix}build xiangling\n ${prefix}build kazuha\n ${prefix}build razor\n ${prefix}build amber\n ${prefix}build aloy\n ${prefix}build kokomi\n ${prefix}build hutao\n `
         if (data[text]) return message.reply(embedsfc(text));
         const help = {
             color: 'RANDOM',
             title: 'Đã xảy ra lỗi :( ',	
-            description: `sử dụng lệnh \"\ ${prefix}build \+ tên nhân vật\"\n lưu ý : tên nhân vật phải viết Hoa ký tự đầu tiên.\n 1 số nhân vật có tên 2 chữ như Kamisato Ayaka , Kaedehara Kazuha thì chỉ sử dụng tên (Ayaka, Kazuha) .\n 1 số nhân vậT đặc biệt: Tartaglia=Childe , raiden shogun = Baal `,
+            description: `sử dụng lệnh \"\ ${prefix}build \+ tên nhân vật\"\n lưu ý : tên nhân vật phải viết thường.\n 1 số nhân vật có tên 2 chữ như kamisato ayaka , kaedehara kazuha thì chỉ sử dụng tên (ayaka, kazuha) .\n 1 số nhân vật đặc biệt: tartaglia=childe , raiden shogun = baal `,
             fields: [
                             {
                                 name: `${prefix}build `,
