@@ -331,5 +331,33 @@
 		"Title": "Cách build Thoma",
 		"Image": "https://media.discordapp.net/attachments/793617442261565450/905140712838950973/THOMA_BUILD_EN.png",
 		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+     "traveler geo": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Traveler (Geo)",
+		"Image": "https://media.discordapp.net/attachments/793617442261565450/897604634363969586/GEO_MC_EN.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"main-geo": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Traveler (Geo)",
+		"Image": "https://media.discordapp.net/attachments/793617442261565450/897604634363969586/GEO_MC_EN.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"main-electro": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Traveler (Electro)",
+		"Image": "https://media.discordapp.net/attachments/793617442261565450/898586672529297429/MC_ELECTRO_EN.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
+		},
+	"main-anemo": 
+		{
+		"Color": "#ff00ff",
+		"Title": "Cách build Traveler (Anemo)",
+		"Image": "https://media.discordapp.net/attachments/793617442261565450/821361775911501844/fiche_build_MC_Anemo.png",
+		"Footer": "hướng dẫn chỉ mang tính tham khảo,có thể không còn tối ưu trong tương lai"
 		}
 }
