@@ -74,8 +74,8 @@ module.exports= (interaction)=>{
 
 else if (interaction.isButton()) 
 {
-	if (interaction.customId=='diemdanh_on') member.roles.add(crole(`điểm danh`));
-	if (interaction.customId=='diemdanh_off') member.roles.remove(crole(`điểm danh`));
+	if (interaction.customId=='diemdanh_on') member.roles.add(crole(`Điểm danh`));
+	if (interaction.customId=='diemdanh_off') member.roles.remove(crole(`Điểm danh`));
 	if (interaction.customId=='confirm_rules') member.roles.remove(crole(`Not verified`)).then(member.roles.add(crole(`Member`))) ;
 	interaction.deferUpdate();
 }
