@@ -7,8 +7,8 @@ const Discord = require("discord.js"); //this is the official discord.js wrapper
 //here the event starts
 module.exports = async (client, member) => {
     console.log(`aaa`)
-   const mainchat = member.guild.channels.cache.get('922098975954337815')
-    //const channel = member.guild.channels.cache.get('879273823390826506');
+   const mainchat = member.guild.channels.cache.get('879281077213073419')
+    const channel = member.guild.channels.cache.get('879273823390826506');
     const canvas = Canvas.createCanvas(1772, 900);
     const context = canvas.getContext('2d');   
     //set the Background to the welcome.png
@@ -69,10 +69,10 @@ module.exports = async (client, member) => {
     const welcome_eEmbed = new Discord.MessageEmbed()
     .setColor('RANDOM')
     .setTitle(`chào mừng ${member.user.username} đến với Genshin VN`)
-   .setDescription("dfgsfgfdg")
+   //.setDescription("dfgsfgfdg")
 
 
-  // .setDescription(`<:Kwc_horn:906151913416974398>Vui lòng đọc kỹ luật và xác minh tại \n   ${member.guild.channels.cache.get('906141781329084436').toString()} để tham gia tương tác \n   \n <:832727601155801098:906151913370832987>  Chúc bạn có những quãng thời gian vui vẻ cùng với server nhé <3`)
+   .setDescription(`<:Kwc_horn:906151913416974398>Vui lòng đọc kỹ luật và xác minh tại \n   ${member.guild.channels.cache.get('906141781329084436').toString()} để tham gia tương tác \n   \n <:832727601155801098:906151913370832987>  Chúc bạn có những quãng thời gian vui vẻ cùng với server nhé <3`)
 
 
 
