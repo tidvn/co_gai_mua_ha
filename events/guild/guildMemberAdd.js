@@ -82,12 +82,12 @@ module.exports = async (client, member) => {
 
 
     
-//await member.roles.add('882970392728322048');
-//await channel.send(`Hello <@${member.id }> ! `);
-//await channel.send({ embeds: [welcome_eEmbed],files: [attachment] });
-//await mainchat.send(`1 thiên thần nhỏ <@${member.id }> vừa đặt chân tới Genshin Vn . mọi người cùng chào đón cậu ấy nào !!! `);
+await member.roles.add('882970392728322048');
+await channel.send(`Hello <@${member.id }> ! `);
+await channel.send({ embeds: [welcome_eEmbed],files: [attachment] });
+await mainchat.send(`1 thiên thần nhỏ <@${member.id }> vừa đặt chân tới Genshin Vn . mọi người cùng chào đón cậu ấy nào !!! `);
 await mainchat.send({files: [attachment]});
-//await mainchat.send(`<:832727420733620284:906151913400184832> `);
+await mainchat.send(`<:832727420733620284:906151913400184832> `);
 
 
 
