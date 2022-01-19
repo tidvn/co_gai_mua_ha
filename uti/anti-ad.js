@@ -6,6 +6,7 @@ module.exports= async (message)=>{
         guild.invites.fetch().then((invites) => {
           for (const invite of invites) {
             if (code.length > 15 || code === invite[0]) {
+              console.log(code.length)
               resolve(true)
               return
             }
