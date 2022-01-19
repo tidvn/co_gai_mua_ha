@@ -1,5 +1,5 @@
 //Import Modules
-const config = require(`../../botconfig/config.json`);
+require('dotenv').config();
 const ee = require(`../../botconfig/embed.json`);
 const settings = require(`../../botconfig/settings.json`);
 const { onCoolDown, replacemsg } = require("../../handlers/functions");
@@ -9,7 +9,7 @@ module.exports = async (client, message) => {
     require(`../../uti/anti-ad`)(message);
     if(message.channel.partial) await message.channel.fetch();
     if(message.partial) await message.fetch();
-    const prefix = config.prefix;
+    const prefix =process.env.PREFIX;
     const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(prefix)})`);
     if(!prefixRegex.test(message.content)) return;
     const [, mPrefix] = message.content.match(prefixRegex);

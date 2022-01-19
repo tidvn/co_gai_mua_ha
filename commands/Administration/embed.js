@@ -1,5 +1,4 @@
 const { MessageEmbed } = require("discord.js");
-const config = require("../../botconfig/config.json");
 const ee = require("../../botconfig/embed.json");
 module.exports = { //if [OPTIONAL] it means, you don't need to type it!
   name: "embed", //the Command Name [REQUIRED]

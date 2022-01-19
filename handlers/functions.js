@@ -2,7 +2,8 @@ const {
     MessageEmbed,
     Collection
   } = require("discord.js");
-  const config = require("../botconfig/config.json");
+  require('dotenv').config();
+
   const ee = require("../botconfig/embed.json");
   const settings = require("../botconfig/settings.json");
   //EXPORT ALL FUNCTIONS
@@ -542,7 +543,7 @@ function onCoolDown(message, command) {
    */
    const { MessageButton, MessageActionRow } = require('discord.js')
    async function swap_pages(client, message, description, TITLE) {
-     let prefix = config.prefix;
+     let prefix = process.env.PREFIX;
      let cmduser = message.author;
    
      let currentPage = 0;
@@ -706,7 +707,7 @@ function onCoolDown(message, command) {
    */
   function change_status(client) {
     try {
-      client.user.setActivity(`${config.prefix}help | ${client.guilds.cache.size} Guilds | ${Math.ceil(client.users.cache.size/1000)}k Members`, {
+      client.user.setActivity(`${process.env.PREFIX}help | ${client.guilds.cache.size} Guilds | ${Math.ceil(client.users.cache.size/1000)}k Members`, {
         type: "PLAYING",
       });
     } catch (e) {

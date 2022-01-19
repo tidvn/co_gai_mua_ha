@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const config = require(`./botconfig/config.json`);
 const settings = require(`./botconfig/settings.json`);
+require('dotenv').config();
 const client = new Discord.Client({
     //fetchAllMembers: false,
     //restTimeOffset: 0,
@@ -49,4 +49,4 @@ client.categories = require("fs").readdirSync(`./commands`);
         require(`./handlers/${h}`)(client);
     })
 //Start the Bot
-client.login(config.token)
+client.login(process.env.TOKEN)

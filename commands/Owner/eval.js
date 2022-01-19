@@ -31,13 +31,13 @@ module.exports = {
       //define a global variable
       let evaled;
       //if the args include the word token, return console error
-      if (args.join(` `).includes(`token`)) return console.log(`ERROR NO TOKEN GRABBING ;)`.red);
+      if (args.join(` `).includes(`token`)) return console.log(`ERROR NO TOKEN GRABBING ;)`);
       //get the evaled content
       evaled = await eval(args.join(` `));
       //make string out of the evaluation
       let string = inspect(evaled);
       //if the token is included return error
-      if (string.includes(client.token)) return console.log(`ERROR NO TOKEN GRABBING ;)`.red);
+      if (string.includes(client.token)) return console.log(`ERROR NO TOKEN GRABBING ;)`);
       //define queueembed
       let evalEmbed = new MessageEmbed()
         .setTitle(`${client.user.username} | Evaluation`)
