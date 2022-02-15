@@ -5,7 +5,7 @@ const googleTTS = require('google-tts-api');
 module.exports = {
   name: "talk", //the command name for execution & for helpcmd [OPTIONAL]
   category: "Tool", //the command category for helpcmd [OPTIONAL]
-  aliases: ["tts","noi","speach","keu"], //the command aliases for helpcmd [OPTIONAL]
+  aliases: ["tts","noi","speach","keu","t"], //the command aliases for helpcmd [OPTIONAL]
   cooldown: 3, //the command cooldown for execution & for helpcmd [OPTIONAL]
   usage: "talk <text>", //the command usage for helpcmd [OPTIONAL]
   description: "nói đoạn <text> trong room voice", //the command description for helpcmd [OPTIONAL]
