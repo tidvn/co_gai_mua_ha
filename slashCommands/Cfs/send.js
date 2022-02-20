@@ -45,7 +45,7 @@ module.exports = {
 		//let UserOption = options.getUser("OPTIONNAME"); //RETURNS USER OBJECT 
 		//const ChannelOption = `944946380403798026`; //RETURNS CHANNEL OBJECt
 		//let RoleOption = options.getRole("OPTIONNAME"); //RETURNS ROLE OBJECT
-		const channel = guild.channels.cache.get(`944946380403798026`);
+		const channel = guild.channels.cache.get(`944932728892170280`);
 		let embed = new MessageEmbed().setColor('RANDOM')
 		.setTitle(String(EmbedTitle).substr(0, 256))
 		.setDescription(String(EmbedDescription).substr(0, 2048).split("+n+").join("\n"))
