@@ -11,6 +11,11 @@
                 "Folder": "Admin",
                 "CmdName": "admin",
                 "CmdDescription": "Administrate the Server!"
+        },
+        {
+                "Folder": "Cfs",
+                "CmdName": "send",
+                "CmdDescription": "send cfs!"
         }
    ]
 }
