@@ -2,11 +2,11 @@ const { MessageEmbed } = require("discord.js");
 const config = require("../../botconfig/config.json");
 const ee = require("../../botconfig/embed.json");
 module.exports = {
-    name: "clear", //the Command Name
+    name: "clean", //the Command Name
     category: "Administration", //the Command Category [OPTIONAL]
     aliases: [], //the command aliases [OPTIONAL]
     cooldown: 2, //the Command Cooldown (Default in /botconfig/settings.json) [OPTIONAL]
-    usage: "clear", //the Command usage [OPTIONAL]
+    usage: "clean", //the Command usage [OPTIONAL]
     description: "clear", //the command description [OPTIONAL]
     memberpermissions: ["MANAGE_MESSAGES"], //Only allow members with specific Permissions to execute a Commmand [OPTIONAL]
     requiredroles: [], //Only allow specific Users with a Role to execute a Command [OPTIONAL]
