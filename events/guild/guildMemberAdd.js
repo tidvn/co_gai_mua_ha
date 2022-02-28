@@ -1,5 +1,6 @@
 //const { MessageAttachment,MessageEmbed } = require('discord.js')
-const Canvas = require('canvas')
+const Canvas = require('canvas');
+Canvas.registerFont('./assets/MoreSugar.ttf', { family: 'More Sugar' });
 const config = require("../../botconfig/config.json"); //loading config file with token and prefix
 const settings = require("../../botconfig/settings.json"); //loading settings file with the settings
 const ee = require("../../botconfig/embed.json"); //Loading all embed settings like color footertext and icon ...
