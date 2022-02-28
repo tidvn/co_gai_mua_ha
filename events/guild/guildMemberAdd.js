@@ -37,7 +37,7 @@ module.exports = async (client, member) => {
       context.fillText(textString3, canvas.width / 2 , 750);
     }      
     //get the Guild Name
-    var textString4 = `Genshin VN`;
+    var textString4 = `GVN`;
     context.font = 'bold 180px Genta';
     context.fillStyle = '#ffccff';
     context.textAlign = "center";
@@ -68,7 +68,7 @@ module.exports = async (client, member) => {
 
     const welcome_eEmbed = new Discord.MessageEmbed()
     .setColor('RANDOM')
-    .setTitle(`chào mừng ${member.user.username} đến với Genshin VN`)
+    .setTitle(`chào mừng ${member.user.username} đến với GVN Community`)
    //.setDescription("dfgsfgfdg")
 
 
