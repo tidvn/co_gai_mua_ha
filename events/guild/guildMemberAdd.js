@@ -12,7 +12,7 @@ module.exports = async (client, member) => {
     const canvas = Canvas.createCanvas(1772, 900);
     const context = canvas.getContext('2d');   
     //set the Background to the welcome.png
-    const background = await Canvas.loadImage(`./assets/background.png`);
+    const background = await Canvas.loadImage(`https://i.imgur.com/yFjb8NM.png`);
     context.drawImage(background, 0, 0, canvas.width, canvas.height);
     context.strokeStyle = '#f2f2f2';
     context.strokeRect(0, 0, canvas.width, canvas.height);
@@ -20,33 +20,31 @@ module.exports = async (client, member) => {
     var textString3 = `${member.user.username}#${member.user.discriminator}`.toUpperCase();
     //if the text is too big then smaller the text
     if (textString3.length >= 14) {
-      context.font = 'bold 90px Genta';
-      context.fillStyle = '#fff';
+      context.font = 'bold 100px Comic Sans MS';
+      context.fillStyle = '#000000';
       context.textAlign = "center";
-      context.shadowBlur = 30;
-      context.shadowColor = "black";
-      context.fillText(textString3, canvas.width / 2 , 750);
+      //context.shadowBlur = 30;
+     // context.shadowColor = "black";
+      context.fillText(textString3, canvas.width / 2 +110 , canvas.height / 2);
     }
     //else dont do it
     else {
-      context.font = 'bold 70px Genta';
-      context.fillStyle = '#fff';
+      context.font = 'bold 140px Comic Sans MS';
+      context.fillStyle = '#000000';
       context.textAlign = "center";
-      context.shadowBlur = 30;
-      context.shadowColor = "black";
-      context.fillText(textString3, canvas.width / 2 , 750);
+     // context.shadowBlur = 30;
+     // context.shadowColor = "black";
+      context.fillText(textString3,  canvas.width / 2 +110 , canvas.height / 2);
     }      
     //get the Guild Name
-    var textString4 = `GVN`;
-    context.font = 'bold 180px Genta';
-    context.fillStyle = '#ffccff';
+    var textString4 = `WELCOME`;
+    context.font = 'bold 90px Comic Sans MS';
+    context.fillStyle = '#ff33cc';
     context.textAlign = "center";
-    context.shadowBlur = 20;
-    context.shadowColor = "black";
-    context.fillText(textString4, canvas.width / 2 , 660);
+    context.fillText(textString4, canvas.width / 2 , 550);
     //create a circular "mask"
     context.beginPath();
-    context.arc(canvas.width / 2 , canvas.height / 2 - 175, 225, 0, Math.PI * 2, true);//position of img
+   context.arc(280 , canvas.height / 2 , 225, 0, Math.PI * 2, true);//position of img
     context.strokeStyle = '#66ff99';
     context.lineWidth = 30;
     context.stroke();
@@ -56,7 +54,7 @@ module.exports = async (client, member) => {
     //define the user avatar
     const avatar = await Canvas.loadImage(member.user.displayAvatarURL({size: 4096, dynamic: true, format: 'jpg' }));
     //draw the avatar
-    context.drawImage(avatar, canvas.width / 2 - 225 , canvas.height / 2 - 400, 450, 450);
+       context.drawImage(avatar, 55 , canvas.height / 2 - 225, 450, 450);
     
     
 
